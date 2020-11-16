@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "technology_areas",
+  "info": {
+    "name": "Technology Area",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "technologyItems": {
+      "collection": "technology-item"
+    }
+  }
+}

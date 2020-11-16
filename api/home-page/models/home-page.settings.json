@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "forWhatBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-and-description"
+    },
+    "servicesBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-and-description"
+    },
+    "howWeWorkBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-and-description"
+    },
+    "ourClientsBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-and-description"
+    },
+    "haveSomeQuestionBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-and-description"
+    }
+  }
+}

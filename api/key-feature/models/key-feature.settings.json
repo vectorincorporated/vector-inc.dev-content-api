@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "key_features",
+  "info": {
+    "name": "Key Feature"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

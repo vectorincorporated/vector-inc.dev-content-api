@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_common_title_and_descriptions",
+  "info": {
+    "name": "Title and Description",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

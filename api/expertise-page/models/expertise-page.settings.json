@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "expertise_pages",
+  "info": {
+    "name": "Expertise Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

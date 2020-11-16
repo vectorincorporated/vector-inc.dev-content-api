@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "name": "service",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "hasTechnologyList": {
+      "type": "boolean"
+    },
+    "technologyAreas": {
+      "collection": "technology-area"
+    },
+    "tags": {
+      "collection": "tag"
+    }
+  }
+}

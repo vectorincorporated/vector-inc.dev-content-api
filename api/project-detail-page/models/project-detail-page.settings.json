@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "project_detail_pages",
+  "info": {
+    "name": "Project Detail Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "formBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-and-description"
+    }
+  }
+}

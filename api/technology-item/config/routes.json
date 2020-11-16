@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/technology-items",
+      "handler": "technology-item.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/technology-items/count",
+      "handler": "technology-item.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/technology-items/:id",
+      "handler": "technology-item.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/technology-items",
+      "handler": "technology-item.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/technology-items/:id",
+      "handler": "technology-item.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/technology-items/:id",
+      "handler": "technology-item.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

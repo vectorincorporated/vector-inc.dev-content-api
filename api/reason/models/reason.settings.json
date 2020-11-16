@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reasons",
+  "info": {
+    "name": "Reason"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

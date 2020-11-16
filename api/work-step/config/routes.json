@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/work-steps",
+      "handler": "work-step.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/work-steps/count",
+      "handler": "work-step.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/work-steps/:id",
+      "handler": "work-step.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/work-steps",
+      "handler": "work-step.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/work-steps/:id",
+      "handler": "work-step.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/work-steps/:id",
+      "handler": "work-step.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

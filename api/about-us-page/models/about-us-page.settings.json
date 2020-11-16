@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_us_pages",
+  "info": {
+    "name": "About Us Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "companyDescription": {
+      "type": "string"
+    },
+    "description1": {
+      "type": "text"
+    },
+    "description2": {
+      "type": "text"
+    },
+    "ourTeamBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-and-description"
+    },
+    "ourContactsBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-and-description"
+    },
+    "weInSocialBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-and-description"
+    },
+    "ourAddressBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-and-description"
+    },
+    "formBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-and-description"
+    }
+  }
+}

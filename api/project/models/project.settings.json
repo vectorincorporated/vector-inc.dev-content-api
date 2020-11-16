@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "Project",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "specialTitle": {
+      "type": "string"
+    },
+    "generalDescription": {
+      "type": "text"
+    },
+    "problemDescription": {
+      "type": "text"
+    },
+    "solutionDescription": {
+      "type": "text"
+    },
+    "projectUrl": {
+      "type": "string"
+    },
+    "screenshots": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "technologyAreas": {
+      "collection": "technology-area"
+    },
+    "keyFeatures": {
+      "collection": "key-feature"
+    }
+  }
+}
