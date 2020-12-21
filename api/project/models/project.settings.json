@@ -45,6 +45,16 @@
     },
     "keyFeatures": {
       "collection": "key-feature"
+    },
+    "ChallengesAndProblems": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.challenges-and-problems"
+    },
+    "OurSolutions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.our-solutions"
     }
   }
 }

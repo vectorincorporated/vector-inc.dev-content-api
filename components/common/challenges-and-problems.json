@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_common_challenges_and_problems",
+  "info": {
+    "name": "ChallengesAndProblems",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

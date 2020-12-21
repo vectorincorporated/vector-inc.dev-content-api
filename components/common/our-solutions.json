@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_common_our_solutions",
+  "info": {
+    "name": "OurSolutions",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
