@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "expertise_pages",
   "info": {
-    "name": "Expertise Page"
+    "name": "Expertise Page",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -15,6 +16,9 @@
     },
     "description": {
       "type": "text"
+    },
+    "expertise_types": {
+      "collection": "expertise-type"
     }
   }
 }
