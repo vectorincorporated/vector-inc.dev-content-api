@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "about_us_pages",
   "info": {
-    "name": "About Us Page"
+    "name": "About Us Page",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,13 +14,10 @@
     "title": {
       "type": "string"
     },
-    "companyDescription": {
-      "type": "string"
-    },
-    "description1": {
+    "description": {
       "type": "text"
     },
-    "description2": {
+    "author": {
       "type": "text"
     },
     "ourTeamBlock": {
