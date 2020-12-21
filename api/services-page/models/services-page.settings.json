@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "services_pages",
   "info": {
-    "name": "Services Page"
+    "name": "Services Page",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -15,6 +16,9 @@
     },
     "description": {
       "type": "text"
+    },
+    "technology_items": {
+      "collection": "technology-item"
     }
   }
 }
