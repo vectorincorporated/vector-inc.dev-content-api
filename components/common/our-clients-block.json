@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_common_our_clients_blocks",
+  "info": {
+    "name": "ourClientsBlock",
+    "icon": "balance-scale-left"
+  },
+  "options": {},
+  "attributes": {
+    "clients": {
+      "collection": "client"
+    }
+  }
+}

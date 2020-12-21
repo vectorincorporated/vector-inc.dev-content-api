@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_common_for_what_blocks",
+  "info": {
+    "name": "forWhatBlock",
+    "icon": "ankh",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "reasons": {
+      "collection": "reason"
+    }
+  }
+}

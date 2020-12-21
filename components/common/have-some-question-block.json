@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_common_have_some_question_blocks",
+  "info": {
+    "name": "haveSomeQuestionBlock",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

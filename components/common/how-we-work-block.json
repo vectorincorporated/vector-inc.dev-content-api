@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_common_how_we_work_blocks",
+  "info": {
+    "name": "howWeWorkBlock",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "work_steps": {
+      "collection": "work-step"
+    }
+  }
+}

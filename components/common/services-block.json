@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_common_services_blocks",
+  "info": {
+    "name": "servicesBlock",
+    "icon": "bacon",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "services": {
+      "collection": "service"
+    }
+  }
+}

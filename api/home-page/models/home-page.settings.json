@@ -16,28 +16,28 @@
     },
     "forWhatBlock": {
       "type": "component",
-      "repeatable": false,
-      "component": "common.title-and-description"
+      "repeatable": true,
+      "component": "common.for-what-block"
     },
     "servicesBlock": {
       "type": "component",
-      "repeatable": false,
-      "component": "common.title-and-description"
-    },
-    "howWeWorkBlock": {
-      "type": "component",
-      "repeatable": false,
-      "component": "common.title-and-description"
+      "repeatable": true,
+      "component": "common.services-block"
     },
     "ourClientsBlock": {
       "type": "component",
       "repeatable": false,
-      "component": "common.title-and-description"
+      "component": "common.our-clients-block"
+    },
+    "howWeWorkBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.how-we-work-block"
     },
     "haveSomeQuestionBlock": {
       "type": "component",
       "repeatable": false,
-      "component": "common.title-and-description"
+      "component": "common.have-some-question-block"
     }
   }
 }
