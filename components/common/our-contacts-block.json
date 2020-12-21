@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_common_our_contacts_blocks",
+  "info": {
+    "name": "ourContactsBlock",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "contacts": {
+      "collection": "contact"
+    }
+  }
+}

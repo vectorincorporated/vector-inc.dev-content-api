@@ -18,19 +18,9 @@
       "type": "text"
     },
     "author": {
-      "type": "text"
+      "type": "string"
     },
     "ourTeamBlock": {
-      "type": "component",
-      "repeatable": false,
-      "component": "common.title-and-description"
-    },
-    "ourContactsBlock": {
-      "type": "component",
-      "repeatable": false,
-      "component": "common.title-and-description"
-    },
-    "weInSocialBlock": {
       "type": "component",
       "repeatable": false,
       "component": "common.title-and-description"
@@ -38,12 +28,23 @@
     "ourAddressBlock": {
       "type": "component",
       "repeatable": false,
-      "component": "common.title-and-description"
+      "component": "common.our-address-block"
     },
-    "formBlock": {
+    "weInSocialBlock": {
       "type": "component",
       "repeatable": false,
-      "component": "common.title-and-description"
+      "component": "common.we-in-social-block"
+    },
+    "ourContactsBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.our-contacts-block"
+    },
+    "motivation": {
+      "type": "text"
+    },
+    "motivationAutor": {
+      "type": "string"
     }
   }
 }

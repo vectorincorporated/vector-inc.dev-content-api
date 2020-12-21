@@ -7,11 +7,8 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
+    "team_members": {
+      "collection": "team-member"
     }
   }
 }

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_common_our_address_blocks",
+  "info": {
+    "name": "ourAddressBlock",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    }
+  }
+}

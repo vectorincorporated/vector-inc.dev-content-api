@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_common_we_in_social_blocks",
+  "info": {
+    "name": "weInSocialBlock",
+    "icon": "angle-double-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "socials": {
+      "collection": "social"
+    }
+  }
+}
