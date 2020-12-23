@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "project_detail_pages",
   "info": {
-    "name": "Project Detail Page"
+    "name": "Project Detail Page",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -17,6 +18,9 @@
       "type": "component",
       "repeatable": false,
       "component": "common.title-and-description"
+    },
+    "project": {
+      "model": "project"
     }
   }
 }
