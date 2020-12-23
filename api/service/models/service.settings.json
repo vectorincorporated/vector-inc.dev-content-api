@@ -17,9 +17,6 @@
     "description": {
       "type": "text"
     },
-    "hasTechnologyList": {
-      "type": "boolean"
-    },
     "technologyAreas": {
       "collection": "technology-area"
     },
