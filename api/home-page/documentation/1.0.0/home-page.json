@@ -466,6 +466,9 @@
                   "image": {
                     "type": "string"
                   },
+                  "order": {
+                    "type": "integer"
+                  },
                   "published_at": {
                     "type": "string"
                   },
@@ -646,6 +649,9 @@
                   },
                   "image": {
                     "type": "string"
+                  },
+                  "order": {
+                    "type": "integer"
                   },
                   "published_at": {
                     "type": "string"

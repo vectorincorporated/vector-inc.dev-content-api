@@ -605,6 +605,9 @@
               }
             }
           },
+          "order": {
+            "type": "integer"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -615,6 +618,9 @@
         "properties": {
           "title": {
             "type": "string"
+          },
+          "order": {
+            "type": "integer"
           },
           "published_at": {
             "type": "string",
